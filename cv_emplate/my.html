@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>简历——张阳</title>
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal-default-theme.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal.min.js"></script>
+    <script src="static/js/script.js"></script>
+</head>
+
+<body>
+    <div class="container" id="cv">
+        <div class="side">
+            <div class="me">
+                <div class="portrait"></div>
+                <div class="remodal remodal-img" data-remodal-id="portrait-modal">
+                    <h3>请输入图片URL地址：</h3>
+                    <br/>
+                    <input type="text" id="avatar-url">
+                    <button data-remodal-action="confirm" class="remodal-confirm">确定</button>
+                </div>
+                <h1 id="username" >张阳</h1>
+                <h4 id="persona-tag" >Python / 计算机视觉 / Web </h4>
+            </div>
+            <div class="profile info-unit">
+                <h2 class="info-header"><i class="iconfont icon-person"></i> <span class="info-title">基本信息</span></h2>
+                <hr>
+                <ul class="info-list">
+                    <li>
+                        <label class="left-label">姓名</label><span class="label-value">张阳</span></li>
+                    <li>
+                        <label class="left-label">学历</label><span class="label-value">本科</span></li>
+                    <li>
+                        <label class="left-label">毕业院校</label><span class="label-value">中北大学</span></li>
+                    <li>
+                        <label class="left-label">毕业年份</label><span class="label-value">2020</span></li>
+                </ul>
+            </div>
+            <div class="contact info-unit">
+                <h2 class="info-header"><i class="iconfont icon-call"></i> <span class="info-title">联系方式</span></h2>
+                <hr>
+                <ul class="info-list">
+                    <li>
+                        <label class="left-label">手机</label><span class="label-value">18081209172</span></li>
+                    <li>
+                        <label class="left-label">邮箱</label><span class="label-value">2053558288@qq.com</span></li>
+                    <li>
+                        <label class="left-label">Github</label><span class="label-value">github.com/annyangya</span></li>
+                    <li>
+                        <label class="left-label">CSDN</label><span class="label-value">blog.csdn.net/ayangann915</span></li>
+                </ul>
+            </div>
+            <div class="skill info-unit">
+                <h2 class="info-header"><i class="iconfont icon-star"></i> <span class="info-title">技能点</span></h2>
+                <hr>
+                <ul class="progress-list">
+                    <li>
+                        <label class="left-label">Python</label>
+                        <progress value="70" max="100"></progress>
+                    </li>
+                    <li>
+                        <label class="left-label">Tensorflow</label>
+                        <progress value="70" max="100"></progress>
+                    </li>
+                    <li>
+                        <label class="left-label">opencv</label>
+                        <progress value="60" max="100"></progress>
+                    </li>
+                    <li>
+                        <label class="left-label">机器学习</label>
+                        <progress value="60" max="100"></progress>
+                    </li>
+                    <li>
+                        <label class="left-label">计算机视觉</label>
+                        <progress value="60" max="100"></progress>
+                    </li>
+                    <li>
+                        <label class="left-label">flask</label>
+                        <progress value="70" max="100"></progress>
+                    </li>
+                    <li>
+                        <label class="left-label">JavaScript</label>
+                        <progress value="60" max="100"></progress>
+                    </li>
+                    <li>
+                        <label class="left-label">html/css</label>
+                        <progress value="60" max="100"></progress>
+                    </li>
+                </ul>
+            </div>
+            <div class="stack info-unit">
+                <h2 class="info-header"><i class="iconfont icon-build"></i> <span class="info-title">技术栈</span></h2>
+                <hr>
+                <ul class="stack-list">
+                    <li>
+                        <label class="left-label">计算机视觉</label><span class="label-value">tensorflow、opencv</span></li>
+                    </li>
+                    <li>
+                        <label class="left-label">后端</label><span class="label-value">Python、Flask、MySQL、SQLAlchemy、Blueprint</span></li>
+                    </li>
+                    <li>
+                        <label class="left-label">其它</label><span class="label-value">Linux</span></li>
+                    </li>
+                </ul>
+            </div>
+
+            <!--<div class="code info-unit">-->
+                <!--<h2 class="info-header"><i class="iconfont icon-weixin"></i> <span class="info-title">个人微信</span></h2>-->
+                <!--<hr>-->
+                <!--<div class="weixin">-->
+                    <!--<img src="static/image/weixin.jpg" alt="">-->
+
+                <!--</div>-->
+            <!--</div>-->
+            <div class="remodal remodal-img" data-remodal-id="weixin-modal">
+                <h3>请输入图片URL地址：</h3>
+                <br/>
+                <input type="text" id="weixin-url">
+                <button data-remodal-action="confirm" class="remodal-confirm">确定</button>
+            </div>
+        </div>
+        <div class="main">
+            <div class="education info-unit right-list">
+                <h2 class="info-header"><i class="iconfont icon-education"></i> <span class="info-title">教育经历</span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3>中北大学 - 网络工程专业（本科）2016-2020</h3>
+                        <p>
+                            主修数据结构、软件工程、操作系统、计算机组成原理、web前/后端开发、数据库系统、计算机网络等课程，以及计算机视觉方向系列实验，包括人脸识别、目标检测等，并完成程序设计、课程设计、毕业设计等多种实践环节
+                        </p>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="project info-unit right-list">
+                <h2 class="info-header"><i class="iconfont icon-project"></i> <span class="info-title">项目经历</span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3>Android手写数字识别</h3>
+                        <p>
+                            该项目完成了Android在线手写数字识别，用户在手机屏幕上手写一个数字便可识别出是0-9的哪个数字。该项目使用的技术栈包括tensorflow、Softmax。
+                            <br/>
+                        </p>
+                    </li>
+                    <li>
+                        <h3>Smart</h3>
+                        <p>
+                            该项目实现了机器人聊天功能和微信文章阅读功能，我实现了主体功能，调用聚合数据相应API，解析json数据。该项目使用的技术栈包括RxVolley、adapter、JSONObject等。
+                        </p>
+                    </li>
+                    <li>
+                        <h3>医院病房管理系统</h3>
+                        <p>
+                            该项目实现了对医院病房和医生科室的管理，通过Java的GUI编程实现，我完成了页面构建及逻辑开发和数据库相关操作。该项目使用的技术栈包括mysql、Frame、Dialog等
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="work info-unit right-list">
+                <h2 class="info-header"><i class="iconfont icon-work"></i> <span class="info-title">社团和组织经历</span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3>中北红楼部落</h3>
+                        <p>参加中北红楼部落和中北大学图书馆组织的“写下心中的红楼”征文大赛,获得“写下心中的红楼”征文大赛一等奖
+                        </p>
+                    </li>
+                    <li>
+                        <h3>秋蝉书社</h3>
+                        <p>参加秋蝉书社组织的社团活动，参加读书写作活动,获得阅读心得体会三等奖
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="trophy info-unit">
+                <h2 class="info-header"><i class="iconfont icon-trophy"></i> <span class="info-title">奖项/证书/技能</span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3>蓝桥杯专业技术人才大赛Java个人赛(2019)</h3>
+                        <p>
+                            省赛二等奖
+                        </p>
+                    </li> 
+                    <li>
+                        <h3>计算机程序设计大赛省赛(2018)</h3>
+                        <p>
+                            省赛三等奖
+                        </p>
+                    </li> 
+                    <li>
+                        <h3>“三好学生”荣誉称号(2017-2018)</h3>
+                    </li>
+                    <li>
+                        <h3>“优秀学生干部”荣誉称号(2019)</h3>
+                    </li>
+                    <li>
+                        <h3>综合素质一等奖学金(2017-2019)</h3>
+                    </li>
+                </ul>
+            </div>
+            <div class="aboutme info-unit right-paragraph">
+                <h2 class="info-header"><i class="iconfont icon-flower"></i> <span class="info-title">自我评价</span></h2>
+                <hr>
+                <p>
+                     我对待工作认真负责，善于沟通，有较好的抗压抗挫能力和自学能力，为人积极向上，踏实认真，踏实进取，有较强的上进心，善于学习。无论是生活中还是工作中，都能严格要求自己。
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
